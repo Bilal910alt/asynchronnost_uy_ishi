@@ -15,7 +15,6 @@ async function getProducts(){
         h2.classList.add('title')
         a.classList.add('link')
         p.classList.add('text')
-        h2.textContent.add('Name:')
         h2.innerHTML=product.name
         a.innerHTML=product.email
         p.innerHTML=product.body
