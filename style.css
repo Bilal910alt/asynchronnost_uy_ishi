@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+body {
+    background-color:rgb(57, 4, 57);
+}
+.box{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    margin-top: 50px;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: rgb(103, 7, 103);
+}
+
+.card{
+    border-radius: 10px;
+    padding: 30px;
+    transition: 1s;
+    background-color: rgb(135, 7, 135);
+}
+.card:hover {
+    box-shadow: 0 0 15px #fff;
+    transform: scale(1);
+}
+.title{
+    color: aqua;
+    margin-bottom: 10px;
+}
+
+.link{
+    color: rgb(200, 138, 24);
+}
+
+.text{
+    margin-top: 10px;
+    color: #fff;
+}
